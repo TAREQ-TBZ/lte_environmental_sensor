@@ -1,5 +1,19 @@
 # 🌡️ LTE Environmental Sensor
 
+## 📌 Overview
+
+A minimal application aimed to test sending data from a CoAP client to a CoAP server (Thingsboard) over LTE-M/NB-IoT with PSM mode enabled to save energy.
+
+The used board is the nRF9160 discovery board from Nordic.
+
+- Received data in thingsboard
+
+![Received data in thingsboard](docs/images/thingsboard.png)
+
+- Current consumption of the board
+
+![Current consumption of the board](docs/images/currnet_consumption.png)
+
 ## Getting started
 
 Before getting started, make sure you have a proper nRF Connect SDK development environment.
