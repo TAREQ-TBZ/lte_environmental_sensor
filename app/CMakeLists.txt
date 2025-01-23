@@ -11,4 +11,7 @@ project(app LANGUAGES C)
 
 target_sources(app PRIVATE
     src/main.c
+    src/modem_svc.c
+    src/coap_client.c
+    #src/udp_client.c
 )
